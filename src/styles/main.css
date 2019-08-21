@@ -27,21 +27,36 @@ h1 {
     color: black;
     width: 70%;
     text-align: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 header h1 {
-    font-size: 2em;
-    
+    font-size: 2em;    
 }
 
 .nav_link {
     font-size: 1.5em;
     
+}
     
-.footerPage{
+.footerPage{ /* Footer CSS for all pages */
     display: flex;
     flex-flow: row;
     justify-content: center;
+}
+
+.personalHeader{ /* h1 for personal.html */
+    text-align: center;
+}
+
+.divPersonalDateList{ /* css for each list of date and place */
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.personalDiv{ /* contains each personal date list */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
