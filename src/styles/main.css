@@ -1,0 +1,16 @@
+.facebookImageLink{
+
+}
+
+.instagramImageLink{
+    
+}
+
+.twiterImageLink{
+    
+}
+
+.footerPage{
+    display: flex;
+    flex-flow: row;
+}
