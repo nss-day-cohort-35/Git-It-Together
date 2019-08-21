@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
   box-sizing: border-box;
 }
 
@@ -7,7 +6,8 @@
 
 .imgContainer {
   max-width: 100%;
-  max-height: 50%;
+  height: 400px;
+  overflow: hidden;
   position: relative;
   margin: auto;
   border: 3px solid black;
@@ -20,8 +20,9 @@
 }
 
 .img {
-  height: 10%;
+  height: 800px;
   width: 100%;
+  overflow: hidden;
 }
 
 /*Next & previous buttons */
@@ -107,40 +108,6 @@
   to {opacity: 1}
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-    border: 1px red dotted;
-}
-
 /* main navigation */
 header {
     display: flex;
@@ -184,4 +151,3 @@ header h1 {
     flex-flow: row;
     justify-content: center;
 }
->>>>>>> master
