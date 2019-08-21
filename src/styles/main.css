@@ -39,9 +39,19 @@ header h1 {
 .nav_link {
     font-size: 1.5em;
     
-    
+}    
 .footerPage{
     display: flex;
     flex-flow: row;
     justify-content: center;
+}
+
+.news_container {
+    display: flex;
+    flext-flow: column wrap;
+    align-text: left;
+}
+
+.news_card {
+
 }
