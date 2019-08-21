@@ -48,8 +48,9 @@ header h1 {
 
 .news_container {
     display: flex;
-    flext-flow: column wrap;
+    flex-flow: wrap column;
     align-text: left;
+    padding-left: 5%;
 }
 
 .news_card {
