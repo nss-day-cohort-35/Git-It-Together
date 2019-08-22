@@ -91,7 +91,7 @@ body{
   }
 
   .bg-box{
-      background-color: #3b280ca8;
+      background-color: #e9ecef;
   }
 
   body{
@@ -152,10 +152,6 @@ body{
     color: #f0e4dbe3;
     margin-top: 50px;
     letter-spacing: 3px;
-
+    font-family: 'Montserrat', sans-serif
 }
 
-/* .tester{
-    display: flex;
-    justify-content: center;
-} */    
