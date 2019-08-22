@@ -41,16 +41,10 @@ header {
   display: flex;
   justify-content: space-evenly;
   border-radius: 5px;
-<<<<<<< HEAD
   background-color: black;
-=======
-  background-color: rgb(0, 0, 0);
->>>>>>> 1b16b692722cfc0337d55fc3805e4f2d49e08930
-  color: black;
   padding-left: 1%;
 }
 
-<<<<<<< HEAD
 header h1 {
     Display: inline-block;
     margin-block-start: 0.67em;
@@ -59,8 +53,6 @@ header h1 {
     margin-inline-end: 0px;
 }
 
-=======
->>>>>>> 1b16b692722cfc0337d55fc3805e4f2d49e08930
 .nav {
     display: flex;
     justify-content: space-evenly;
