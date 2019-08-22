@@ -5,7 +5,9 @@
    <meta charset=UTF-8>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="src/styles/main.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <title>Toni Morrison</title>
 </head>
 
@@ -21,50 +23,95 @@
       <!-- Main Navigation END -->
    </header>
 
-   <!--img carousel container -->
-   <div class="imgContainer">
-
-      <!--Full-Width Images with number and caption -->
-      <div class="imgContainer_imgSlide fade">
-         <div class="numbertext">1 / 4</div>
-         <img class="img" src="src/img/Toni1.jpg">
-         <div class="text">Toni Morrison smiling</div>
-      </div>
-
-      <div class="imgContainer_imgSlide fade">
-         <div class="numbertext">2 / 4</div>
-         <img class="img" src="src/img/Toni2.jpg">
-         <div class="text">Toni Morrison black and white portrait</div>
-      </div>
-
-      <div class="imgContainer_imgSlide fade">
-         <div class="numbertext">3 / 4</div>
-         <img class="img" src="src/img/Toni3.jpg">
-         <div class="text">Toni Morrison accepting award from President Obama</div>
-      </div>
-
-      <div class="imgContainer_imgSlide fade">
-         <div class="numbertext">4 / 4</div>
-         <img class="img" src="src/img/Toni4.jpg">
-         <div class="text">Toni Morrison portrait photo</div>
-
-         <!-- Next and previous buttons -->
-         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div> <!-- End img carousel container -->
-      
+   <!--Image Carousel Container -->
+   <div class="bd-example">
+     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" class="vh-100" data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li> 
+         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+         <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+       </ol>  
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="src/img/Toni1.jpg" class="d-block w-100" alt="">
+	   <div class="carousel-caption d-none d-md block">
+	     <h5>First slide label</h5>
+	     <p>Toni Morrison smiling</p>
+	   </div>
+         </div>
+         <div class="carousel-item">
+           <img src="src/img/Toni2.jpg" class="d-block w-100" alt="">
+	   <div class="carousel-caption d-none d-md block">
+	     <h5>TONI</h5>
+	     <p>Toni Morrison black and white portrait</p>
+	   </div>
+         </div>
+         <div class="carousel-item ">
+           <img src="src/img/Toni3.jpg" class="d-block w-100" alt="">
+	   <div class="carousel-caption d-none d-md block">
+	     <h5>First slide label</h5>
+	     <p>Toni Morrison accepting award from President Obama</p>
+	   </div>
+         </div>
+         <div class="carousel-item">
+           <img src="src/img/Toni4.jpg" class="d-block w-100" alt="">
+	   <div class="carousel-caption d-none d-md block">
+	     <h5>First slide label</h5>
+	     <p>Toni Morrison portrait</p>
+	   </div>
+         </div>
+       </div>   
+       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+       </a>
+    </div>
+  </div> <!-- End of Image Carousel -->
+   
+  <!-- Jumbotron  --> 
+  <div style="margin-bottom: 0" class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Toni Morrison</h1>
+      <blockquote class="lead">We die. That may be the meaning of our life. But we do language. That may be the measure of our lives.
+      </blockquote>
       <br>
+      <p>(Nobel Lecture 12/7/93)</p>
+    </div>
+  </div><!-- End of Jumbotron -->
 
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-         <span class="dot" onclick="currentSlide(1)"></span>
-         <span class="dot" onclick="currentSlide(2)"></span>
-         <span class="dot" onclick="currentSlide(3)"></span>
-         <span class="dot" onclick="currentSlide(4)"></span>
-      </div>
-   </div>
+   <article style="background:#8B0000" class="toni-container jumbotron jumbotron-fluid">
+     <section class="toni-item container">
+     <ul>
+     <h3>Known Alias</h3>
+       <li>"Toni" Morrison</li>
+       <li>Chloe Anthony Wofford Morrison</li>
+       <li>Chloe Ardelia Wofford</li>
+     </ul>
+     </section>
+
+     <section class="toni-item container">
+     <ul>
+     <h3>Collaborators</h3>
+       <li>Angela Davis</li>
+       <li>Bill T. Jones</li>
+       <li>Max Roach</li>
+     </ul>
+     </section>
+     
+     <section class="toni-item container">
+     <ul>
+     <h3>Country of Residence</h3>
+       <li>United States</li>
+     </ul>
+     </section>
+   </article>
+
    <footer class="footerPage"> 
-
       <div>
          <a href="https://www.facebook.com/OfficialToniMorrisonAuthor"> <img border="0" 
             alt="Facebook Account" src="../src/img/Facebook.png" width="50" height="50">
@@ -84,7 +131,11 @@
       </div>
 
    </footer> 
-   <script src=src/script/main.js> </script> 
+   <!-- Bootstrap JavaScript -->
+   <script src=src/script/main.js> </script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
