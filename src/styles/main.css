@@ -144,23 +144,53 @@ header h1 {
 }
     
 .footerPage{ /* Footer CSS for all pages */
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+  background-color: black;
+  border-style: outset;
+  border-width: 7px;
+  border-color: rgb(54, 54, 54);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 4px;
+  padding-top: 4px;
+  padding-bottom: 2px;
 }
 
 .personalHeader{ /* h1 for personal.html */
-    text-align: center;
+  text-align: center;
+  vertical-align: 100%;
+  text-shadow: 1px 1px rgb(116, 116, 116);
+  font-weight: bolder;
+  margin-top: 10px;
+  width: 100%;
+  min-height: 150px;
+  background-color: #98c2d6ef;
+  -moz-box-shadow:    inset 0 0 10px #3b280ca8;
+  -webkit-box-shadow: inset 0 0 10px #3b280ca8;
+  box-shadow:         inset 0 0 10px #3b280ca8;  
 }
 
 .divPersonalDateList{ /* css for each list of date and place */
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #800000;
+  border-style: outset;
+  border-width: 7px;
+  border-color: #800000;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .personalDiv{ /* contains each personal date list */
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#personalBody{ /*Affects the body of the personal homepage*/
+  background-color: #e9ecef;
+  font-family: 'Libre Baskerville', serif;
 }
