@@ -200,29 +200,26 @@ header {
   display: flex;
   justify-content: space-evenly;
   border-radius: 5px;
-  background-color: rgba(245, 134, 52, 1);
+  background-color: rgb(0, 0, 0);
   color: black;
   padding-left: 1%;
-}
-
-h1 {
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .nav {
     display: flex;
     justify-content: space-evenly;
-    color: black;
+    color: white;
     width: 70%;
     text-align: center;
     align-items: center;   
 }
 
-header h1 {
-    font-size: 2em;    
+header> h1 {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 2em;    
 }
 
 .nav_link {
@@ -231,24 +228,59 @@ header h1 {
 }
     
 .footerPage{ /* Footer CSS for all pages */
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 4px;
+  padding-top: 4px;
+  padding-bottom: 2px;
 }
 
 .personalHeader{ /* h1 for personal.html */
-    text-align: center;
+  text-align: center;
+  vertical-align: 100%;
+  text-shadow: 1px 1px rgb(116, 116, 116);
+  font-weight: bolder;
+  margin-top: 10px;
+  width: 100%;
+  height:auto;
+  background-color: #98c2d6ef;
+  -moz-box-shadow:    inset 0 0 10px #3b280ca8;
+  -webkit-box-shadow: inset 0 0 10px #3b280ca8;
+  box-shadow:         inset 0 0 10px #3b280ca8;  
+}
+
+.personalHeader > h1{ /* H1 and H2 settings for personal header */
+  padding-top: 10px;
+}
+
+.personalHeader > h2{
+  padding-bottom: 10px;
 }
 
 .divPersonalDateList{ /* css for each list of date and place */
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #800000;
+  border-style: outset;
+  border-width: 7px;
+  border-color: #800000;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .personalDiv{ /* contains each personal date list */
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#personalBody{ /*Affects the body of the personal homepage*/
+  background-color: #e9ecef;
+  font-family: 'Libre Baskerville', serif;
 }
 >>>>>>> master
