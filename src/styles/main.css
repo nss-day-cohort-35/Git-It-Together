@@ -156,15 +156,14 @@ body{
     font-family: 'Montserrat', sans-serif
 }
 
-=======
-* {
-  box-sizing: border-box;
-=======
+
+ 
+
 /*//////////////////// Main-content  //////////// */
 * { 
   box-sizing: inherit;
   font-family: 'Hepta Slab', serif;
->>>>>>> master
+
 }
 .carousel-inner > .carousel-item > img {
   width: 100%;
@@ -283,4 +282,3 @@ header> h1 {
   background-color: #e9ecef;
   font-family: 'Libre Baskerville', serif;
 }
->>>>>>> master
