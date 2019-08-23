@@ -40,21 +40,21 @@ body {
   position: relative;
   z-index: 1;
 }
-.nav-list{
+/* .nav-list{
     display: flex;
     flex-direction: row;
     color: #f0e4dbe3;
     justify-content: space-evenly;
     list-style: none;
     margin-top: 50px;
-}
+} */
 
 .nav-list a{
     color: #f0e4dbe3;
     text-decoration: none;
 }
 .nav-list a:hover{
-    color: coral;
+    color: #98c2d6ef;
 }
 
 .published-work{
@@ -135,17 +135,16 @@ body {
     display: flex;
     flex-direction: row;
     color: #f0e4dbe3;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
+    margin-top: 50px;
 }
 
 .nav-list a{
     color: #f0e4dbe3;
     text-decoration: none;
 }
-.nav-list a:hover{
-    color: coral;
-}
+
 
 
 .placesLived{
@@ -157,7 +156,7 @@ body {
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif
 }
-
+/* end of Career Styling */
 
  
 
